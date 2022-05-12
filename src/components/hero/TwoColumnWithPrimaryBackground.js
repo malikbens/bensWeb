@@ -12,7 +12,6 @@ import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import logoImageSrc from "images/whitelogo.svg";
-import logoImageSrc2 from "images/codeLogo.svg";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;

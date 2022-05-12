@@ -87,18 +87,18 @@ export default () => {
           <LeftColumn>
             <Notification>We have now launched operations in Europe.</Notification>
             <Heading>
-              <span>Hire the best</span>
+              <span>Concepteur de sites internets</span>
               <br />
-              <SlantedBackground>Marketing Team.</SlantedBackground>
+              <SlantedBackground>Donnez vie à vos projets</SlantedBackground>
             </Heading>
             <PrimaryAction>Read Customer Stories</PrimaryAction>
           </LeftColumn>
-          <RightColumn>
+          {/* <RightColumn>
             <StyledResponsiveVideoEmbed
               url="//player.vimeo.com/video/374265101?title=0&portrait=0&byline=0&autoplay=0&responsive=1"
               background="transparent"
             />
-          </RightColumn>
+          </RightColumn> */}
         </TwoColumn>
       </HeroContainer>
     </Container>

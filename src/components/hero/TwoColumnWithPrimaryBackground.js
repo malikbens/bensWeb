@@ -11,7 +11,8 @@ import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } fr
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import logoImageSrc from "images/logo-light.svg";
+import logoImageSrc from "images/whitelogo.svg";
+import logoImageSrc2 from "images/codeLogo.svg";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;
@@ -40,13 +41,13 @@ export default ({
   const logoLink = (
     <LogoLink href="/">
       <img src={logoImageSrc} alt="Logo" />
-      Treact
+      BEN'S WEB AGENCY
     </LogoLink>
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
+      <NavLink href="#">À propos</NavLink>
+      <NavLink href="#">Tarifs</NavLink>
     </NavLinks>
   ];
   return (

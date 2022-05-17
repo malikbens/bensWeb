@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
 
-import HostingCloudLandingPage from "demos/Home.js";
+import Home from "demos/Home.js";
 import HostingCloudLandingPageImageSrc from "images/demo/HostingCloudLandingPage.jpeg";
 
 
@@ -32,8 +32,6 @@ import ThreePlansPricing from "components/pricing/ThreePlans.js";
 
 import ThreeColumnDashedBorderFeatures from "components/features/DashedBorderSixFeatures";
 
-
-
 import SimplePrimaryBackgroundTestimonial from "components/testimonials/SimplePrimaryBackground.js";
 
 import SimpleWithSideImageFAQS from "components/faqs/SimpleWithSideImage.js";
@@ -58,10 +56,10 @@ import MiniCenteredFooter from "components/footers/MiniCenteredFooter.js";
 
 export const components = {
   landingPages: {
-    HostingCloudLandingPage: {
-      component: HostingCloudLandingPage,
+    Home: {
+      component: Home,
       imageSrc: HostingCloudLandingPageImageSrc,
-      url: "/components/landingPages/HostingCloudLandingPage",
+      url: "/components/landingPages/Home",
     },
   },
 

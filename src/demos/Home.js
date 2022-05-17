@@ -19,7 +19,6 @@ export default () => {
       <Pricing />
       <Testimonial />
       <ContactUs />
-      <FAQ />
       <Footer />
     </AnimationRevealPage>
   );

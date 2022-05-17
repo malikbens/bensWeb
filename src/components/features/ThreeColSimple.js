@@ -15,7 +15,7 @@ const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3`;
 const Description = tw(SectionDescription)`text-center mx-auto`;
 const ThreeColumnContainer = styled.div`
-  ${tw`mt-10 flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap lg:justify-center max-w-screen-lg mx-auto`}
+  ${tw`mt-10 flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap lg:justify-center  mx-auto`}
 `;
 const Column = styled.div`
   ${tw`lg:w-1/3 max-w-xs`}
@@ -54,26 +54,32 @@ export default ({
   cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security.",
+      title: "Site Vitrine",
+      description: "Présentez vos services sur le web et développé vos activitées",
       url: "https://timerse.com"
     },
     {
       imageSrc: SupportIconImage,
-      title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
+      title: "E-commerce",
+      description: "Créez votre boutique en ligne et vendez vos produits partout",
       url: "https://google.com"
     },
     {
       imageSrc: CustomizeIconImage,
-      title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
+      title: "Développement Web",
+      description: "Besoin de fonctionnalitées personnalisées repondants a vos besoins? Vous êtes au bon endroit !",
+      url: "https://reddit.com"
+    },
+    {
+      imageSrc: CustomizeIconImage,
+      title: "Référencement ",
+      description: "Boostez votre visibilité sur les réseaux",
       url: "https://reddit.com"
     }
   ],
   linkText = "Learn More",
-  heading = "",
-  subheading = "",
+  heading = "Découvrez nos services",
+  subheading = "N'attendez plus",
   description = "",
   imageContainerCss = null,
   imageCss = null
@@ -94,18 +100,12 @@ export default ({
         <ThreeColumnContainer>
           {cards.map((card, i) => (
             <Column key={i}>
-              <Card href={card.url}>
+              <Card >
                 <span className="imageContainer" css={imageContainerCss}>
                   <img src={card.imageSrc} alt="" css={imageCss} />
                 </span>
                 <span className="title">{card.title}</span>
                 <p className="description">{card.description}</p>
-                {linkText && (
-                  <span className="link">
-                    <span>{linkText}</span>
-                    <ArrowRightIcon className="icon" />
-                  </span>
-                )}
               </Card>
             </Column>
           ))}

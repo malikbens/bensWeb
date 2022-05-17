@@ -58,16 +58,16 @@ const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">
+      <NavLink href="/about">
         A propos
       </NavLink>
       <NavLink href="#">
         Références
       </NavLink>
-      <NavLink href="#">
+      <NavLink href="/pricing">
         Tarifs
       </NavLink>
-      <NavLink href="#">
+      <NavLink href="/contact">
         Contact
       </NavLink>
     </NavLinks>,

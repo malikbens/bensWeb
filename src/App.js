@@ -120,9 +120,6 @@ export default function App() {
         <Route path="/components/:type/:name">
           <ComponentRenderer />
         </Route>
-        <Route path="/pricing">
-          <PricingPage />
-        </Route>
         <Route path="/contact">
           <ContactUsPage />
         </Route>

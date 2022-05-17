@@ -64,9 +64,6 @@ export default () => {
       <NavLink href="#">
         Références
       </NavLink>
-      <NavLink href="/pricing">
-        Tarifs
-      </NavLink>
       <NavLink href="/contact">
         Contact
       </NavLink>

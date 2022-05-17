@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import {Container as ContainerBase } from "components/misc/Layouts.js"
-import logo from "../../images/logo.svg";
+import logo from "../../images/whitelogo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
@@ -36,14 +36,12 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>BEN'S WEB AGENCY</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="/">Accueil</Link>
+            <Link href="/about">En savoir plus</Link>
+            <Link href="#">Contactez-nous</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -52,13 +50,13 @@ export default () => {
             <SocialLink href="https://twitter.com">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            {/* <SocialLink href="https://youtube.com">
               <YoutubeIcon />
-            </SocialLink>
+            </SocialLink> */}
           </SocialLinksContainer>
-          <CopyrightText>
+          {/* <CopyrightText>
             &copy; Copyright 2020, Treact Inc. All Rights Reserved.
-          </CopyrightText>
+          </CopyrightText> */}
         </Row>
       </Content>
     </Container>

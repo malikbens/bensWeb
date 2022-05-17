@@ -88,7 +88,7 @@ export default () => {
               <br />
               <SlantedBackground>Donnez vie à vos projets</SlantedBackground>
             </Heading>
-            <PrimaryAction>En savoir plus...</PrimaryAction>
+            <PrimaryAction><a href="/about">En savoir plus...</a></PrimaryAction>
           </LeftColumn>
           {/* <RightColumn>
             <StyledResponsiveVideoEmbed

@@ -89,7 +89,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 // import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
 // import ServiceLandingPage from "demos/ServiceLandingPage.js";
-import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
+import HostingCloudLandingPage from "demos/Home.js";
 
 /* Inner Pages */
 // import LoginPage from "pages/Login.js";

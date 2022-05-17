@@ -3,9 +3,7 @@ import { useParams } from 'react-router-dom';
 import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
 
-import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
-
-
+import HostingCloudLandingPage from "demos/Home.js";
 import HostingCloudLandingPageImageSrc from "images/demo/HostingCloudLandingPage.jpeg";
 
 

@@ -85,13 +85,13 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now launched operations in Europe.</Notification>
+            <Notification>Basé à BRIGNOLES dans le VAR</Notification>
             <Heading>
               <span>Concepteur de sites internets</span>
               <br />
               <SlantedBackground>Donnez vie à vos projets</SlantedBackground>
             </Heading>
-            <PrimaryAction>Read Customer Stories</PrimaryAction>
+            <PrimaryAction>En savoir plus...</PrimaryAction>
           </LeftColumn>
           {/* <RightColumn>
             <StyledResponsiveVideoEmbed

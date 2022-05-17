@@ -59,21 +59,21 @@ export default () => {
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#">
-        About
+        A propos
       </NavLink>
       <NavLink href="#">
-        Blog
+        Références
       </NavLink>
       <NavLink href="#">
-        Locations
+        Tarifs
       </NavLink>
       <NavLink href="#">
-        Pricing
+        Contact
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">
-        Hire Us
+      <PrimaryLink href="tel:+33662146312">
+        +33 6 62 14 63 12
       </PrimaryLink>
     </NavLinks>
   ];

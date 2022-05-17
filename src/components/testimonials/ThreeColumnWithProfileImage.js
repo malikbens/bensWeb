@@ -30,8 +30,8 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale"
+        "Malik a réalisé plusieurs sites internet, le mien et pour mes clients. Une très grande disponibilité et un grand professionnalisme. Il a fait preuve d'adaptation et a montré toutes ses compétences. Je recommande vivement.",
+      customerName: "Aquilone Vidéos"
     },
     {
       imageSrc:
@@ -58,7 +58,6 @@ export default ({
           {testimonials.map((testimonial, index) => (
             <TestimonialContainer key={index}>
               <Testimonial>
-                <Image src={testimonial.imageSrc} />
                 <Quote>"{testimonial.quote}"</Quote>
                 <CustomerName>- {testimonial.customerName}</CustomerName>
               </Testimonial>

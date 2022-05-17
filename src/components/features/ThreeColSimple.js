@@ -6,8 +6,10 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import { SectionDescription } from "components/misc/Typography.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
+import vitrine from "images/vitrine.png";
+import ecommerce from "images/shopping-cart.png";
+import seo from "images/seo.png";
+import code from "images/programming.png";
 import CustomizeIconImage from "images/customize-icon.svg";
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
@@ -53,25 +55,25 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 export default ({
   cards = [
     {
-      imageSrc: ShieldIconImage,
+      imageSrc: vitrine,
       title: "Site Vitrine",
       description: "Présentez vos services sur le web et développé vos activitées",
       url: "https://timerse.com"
     },
     {
-      imageSrc: SupportIconImage,
+      imageSrc: ecommerce,
       title: "E-commerce",
       description: "Créez votre boutique en ligne et vendez vos produits partout",
       url: "https://google.com"
     },
     {
-      imageSrc: CustomizeIconImage,
+      imageSrc: code,
       title: "Développement Web",
       description: "Besoin de fonctionnalitées personnalisées repondants a vos besoins? Vous êtes au bon endroit !",
       url: "https://reddit.com"
     },
     {
-      imageSrc: CustomizeIconImage,
+      imageSrc: seo,
       title: "Référencement ",
       description: "Boostez votre visibilité sur les réseaux",
       url: "https://reddit.com"
